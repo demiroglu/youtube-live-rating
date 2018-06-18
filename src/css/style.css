@@ -1,0 +1,17 @@
+/* Reset.css*/
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body{background:#f1f1f1;font-family: 'Roboto', sans-serif;}
+.clearfix{clear:both;}
+#top{float:left;width:100%;height:10px;background: #cc181e;}
+#header{float:left;width:100%;text-align: center;padding:50px 0;}
+#header h1{font-weight: 500;font-size:27px;}
+#header h1 a{color:#333;text-decoration: none;}
+#content{width:90%;height:70vh;margin:0 auto;background: #eee;border-radius: 7px;border:1px solid #e3e3e3;}
+.left{float:left;padding:10px;width:calc(100% - 20px);height:20%;}
+.left ul{float:left;width:100%;padding:0;margin:0;height:100%}
+.left ul li{float:left;width:14%;text-align: right;height:50%;}
+.left ul li img{border:1px solid #ccc;background: #fff;padding: 5px;}
+.right{float:right;padding:0px;width:calc(100% - 20px);height:60%;}
+#footer{float:left;width:100%;text-align: center;margin-top:0px;}
+#footer a{color:#888;font-size:11px;font-weight: 300;text-transform: uppercase;}
